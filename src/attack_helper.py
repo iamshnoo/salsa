@@ -9,6 +9,7 @@ import yaml
 from transformers import AutoTokenizer
 
 from bert_model import BertClassifier
+
 # from bert_model_2 import BertClassifier
 
 warnings.filterwarnings("ignore")

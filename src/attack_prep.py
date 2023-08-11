@@ -21,8 +21,8 @@ nlp = spacy.load("en_core_web_lg", disable=["parser", "ner"])
 DATASET_NAME = "nela"  # "isot", "nela", "liar", "kaggle_fake_news", "tfg", "ti_cnn"
 STRATEGY = "test"  # "valid", "test"
 NER = "default"  # "default", "other"
-CANDIDATES_COUNT = 100 # 25, 50, 100, 150, 200
-IMPORTANT_WORDS_COUNT = 20 # 5, 10, 20, 30, 40
+CANDIDATES_COUNT = 100  # 25, 50, 100, 150, 200
+IMPORTANT_WORDS_COUNT = 20  # 5, 10, 20, 30, 40
 
 
 # Data path - save results in input df
@@ -60,7 +60,9 @@ elif STRATEGY == "test":
         # TEST_PATH = f"{INPUTS}/nela_04-08-23-21_50_fine-tune_distilbert-base-uncased_test_results_all.csv"
         # TEST_PATH = f"{INPUTS}/nela_04-08-23-21_50_fine-tune_distilbert-base-uncased_test_results_all_roberta.csv"
         # TEST_PATH = f"{INPUTS}/nela_04-08-23-23_05_fine-tune_roberta-base_test_results_all_distilbert.csv"
-        TEST_PATH = f"{INPUTS}/nela_04-08-23-23_05_fine-tune_roberta-base_test_results_all.csv"
+        TEST_PATH = (
+            f"{INPUTS}/nela_04-08-23-23_05_fine-tune_roberta-base_test_results_all.csv"
+        )
 
 
 def compute_attack_candidates(row, candidates, labels, shap_score):

@@ -73,9 +73,7 @@ if DATASET_NAME == "liar":
 elif DATASET_NAME == "kaggle_fake_news":
     DATA_PATH = "../outputs/kaggle_fake_news_14-07-23-02_35_fine-tune_distilbert-base-uncased_test_results_all.csv"
 elif DATASET_NAME == "nela":
-    DATA_PATH = (
-        "../outputs/nela_04-08-23-21_50_fine-tune_distilbert-base-uncased_test_results_all.csv"
-    )
+    DATA_PATH = "../outputs/nela_04-08-23-21_50_fine-tune_distilbert-base-uncased_test_results_all.csv"
     # DATA_PATH = (
     #     "../outputs/nela_04-08-23-21_50_fine-tune_distilbert-base-uncased_test_results_all_roberta.csv"
     # )
