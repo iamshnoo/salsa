@@ -1,0 +1,318 @@
+# SALIENCE CONFIG #
+experiment_1a:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - salience
+  - INSERT_POSITION:
+    - random
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_1b:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - salience
+  - INSERT_POSITION:
+    - random
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+experiment_1c:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - salience
+  - INSERT_POSITION:
+    - head
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_1d:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - salience
+  - INSERT_POSITION:
+    - head
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+experiment_1e:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - salience
+  - INSERT_POSITION:
+    - tail
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_1f:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - salience
+  - INSERT_POSITION:
+    - tail
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+# FREQUENCY CONFIG #
+experiment_2a:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - freq
+  - INSERT_POSITION:
+    - random
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_2b:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - freq
+  - INSERT_POSITION:
+    - random
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+experiment_2c:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - freq
+  - INSERT_POSITION:
+    - head
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_2d:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - freq
+  - INSERT_POSITION:
+    - head
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+experiment_2e:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - freq
+  - INSERT_POSITION:
+    - tail
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_2f:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - freq
+  - INSERT_POSITION:
+    - tail
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+# ADVERB CONFIG #
+experiment_3a:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - adverb
+  - INSERT_POSITION:
+    - adverb
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_3b:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - adverb
+  - INSERT_POSITION:
+    - adverb
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+# NEGATION CONFIG #
+experiment_4a:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - negation
+  - INSERT_POSITION:
+    - negation
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_4b:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - negation
+  - INSERT_POSITION:
+    - negation
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+# SIM SWITCH CONFIG #
+experiment_5a:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - sim_switch_freq
+  - INSERT_POSITION:
+    - sim_switch_freq
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_5b:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - sim_switch_freq
+  - INSERT_POSITION:
+    - sim_switch_freq
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+experiment_5c:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - sim_switch_salience
+  - INSERT_POSITION:
+    - sim_switch_salience
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_5d:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - sim_switch_salience
+  - INSERT_POSITION:
+    - sim_switch_salience
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+# PERPLEXITY CONFIG #
+experiment_6a:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - perplexity_freq
+  - INSERT_POSITION:
+    - perplexity_freq
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_6b:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - perplexity_freq
+  - INSERT_POSITION:
+    - perplexity_freq
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+experiment_6c:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - perplexity_salience
+  - INSERT_POSITION:
+    - perplexity_salience
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_6d:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - perplexity_salience
+  - INSERT_POSITION:
+    - perplexity_salience
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real
+
+# STSS CONFIG #
+experiment_7a:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - stss
+  - INSERT_POSITION:
+    - stss
+  - FALSE_CATEGORY:
+    - fp
+  - MODE:
+    - fake
+
+experiment_7b:
+  - DATASET_NAME:
+    - tfg
+  - METHOD:
+    - stss
+  - INSERT_POSITION:
+    - stss
+  - FALSE_CATEGORY:
+    - fn
+  - MODE:
+    - real

@@ -1,0 +1,8 @@
+CONFIG_PATH:
+- "../configs/nela.yaml"
+
+EXPERIMENT:
+- "experiment_7b"
+
+NER:
+- "default"
