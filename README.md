@@ -1,6 +1,6 @@
 # SALSA: Salience-Based Switching Attack for Adversarial Perturbations in Fake News Detection Models
 
-This repository contains anonymized code for our submission to WSDM 2024.
+This repository contains anonymized code for our submission to ECIR 2024.
 
 ## Requirements - External libraries
 
