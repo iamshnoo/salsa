@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+type: software
+title: "SALSA: Salience-Based Switching Attack for Adversarial Perturbations in Fake News Detection Models"
+authors:
+  - family-names: "Raj"
+    given-names: "Chahat"
+  - family-names: "Mukherjee"
+    given-names: "Anjishnu"
+    orcid: "https://orcid.org/0000-0003-4012-8466"
+  - family-names: "Purohit"
+    given-names: "Hemant"
+  - family-names: "Anastasopoulos"
+    given-names: "Antonios"
+  - family-names: "Zhu"
+    given-names: "Ziwei"
+repository-code: "https://github.com/iamshnoo/salsa"
+url: "https://iamshnoo.github.io/"
+preferred-citation:
+  type: conference-paper
+  title: "SALSA: Salience-Based Switching Attack for Adversarial Perturbations in Fake News Detection Models"
+  authors:
+    - family-names: "Raj"
+      given-names: "Chahat"
+    - family-names: "Mukherjee"
+      given-names: "Anjishnu"
+      orcid: "https://orcid.org/0000-0003-4012-8466"
+    - family-names: "Purohit"
+      given-names: "Hemant"
+    - family-names: "Anastasopoulos"
+      given-names: "Antonios"
+    - family-names: "Zhu"
+      given-names: "Ziwei"
+  collection-title: "Advances in Information Retrieval"
+  collection-type: proceedings
+  conference:
+    name: "46th European Conference on Information Retrieval (ECIR 2024)"
+  year: 2024
+  start: 35
+  end: 49
+  publisher:
+    name: "Springer Nature Switzerland"
+  doi: "10.1007/978-3-031-56069-9_3"
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-56069-9_3"

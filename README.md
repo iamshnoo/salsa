@@ -1,5 +1,9 @@
 # SALSA: Salience-Based Switching Attack for Adversarial Perturbations in Fake News Detection Models
 
+Chahat Raj*, [Anjishnu Mukherjee*](https://iamshnoo.github.io/), Hemant Purohit, Antonios Anastasopoulos, Ziwei Zhu · ECIR 2024 (* equal contribution)
+
+[Paper](https://link.springer.com/chapter/10.1007/978-3-031-56069-9_3) · [DOI](https://doi.org/10.1007/978-3-031-56069-9_3) · [Research overview and publications](https://iamshnoo.github.io/)
+
 This repository contains code for our paper accepted at ECIR 2024.
 
 ## Requirements - External libraries
@@ -125,4 +129,33 @@ The main structure of the repository is as follows :
     ├── data_load.py
     ├── shapipy.py
     └── train.py
+```
+
+## Citation
+
+If you use this code, please cite the paper:
+
+```bibtex
+@InProceedings{10.1007/978-3-031-56069-9_3,
+author="Raj, Chahat
+and Mukherjee, Anjishnu
+and Purohit, Hemant
+and Anastasopoulos, Antonios
+and Zhu, Ziwei",
+editor="Goharian, Nazli
+and Tonellotto, Nicola
+and He, Yulan
+and Lipani, Aldo
+and McDonald, Graham
+and Macdonald, Craig
+and Ounis, Iadh",
+title="SALSA: Salience-Based Switching Attack for Adversarial Perturbations in Fake News Detection Models",
+booktitle="Advances in Information Retrieval",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="35--49",
+isbn="978-3-031-56069-9",
+doi="10.1007/978-3-031-56069-9_3"
+}
 ```
